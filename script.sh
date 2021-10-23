@@ -9,8 +9,8 @@ VERSENUM=`echo $VERSE |cut -d "]" -f 1 |cut -d "[" -f 2`
 TITLE="$BOOKTITLE$VERSENUM"
 QUOTATION=`echo $VERSE |cut -d "]" -f 2`
 
-echo $TITLE
-echo $QUOTATION
+# echo $TITLE
+# echo $QUOTATION
 
 head -n 11 dailyverse.xml > temp.xml
 
