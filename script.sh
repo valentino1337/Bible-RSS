@@ -12,6 +12,8 @@ QUOTATION=`echo $VERSE |cut -d "]" -f 2`
 # echo $TITLE
 # echo $QUOTATION
 
+# this code is shit (2022) update
+
 head -n 11 dailyverse.xml > temp.xml
 
 echo "
